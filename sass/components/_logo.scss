@@ -1,6 +1,4 @@
 .logo {
-  padding-top: 25px;
-  padding-bottom: 25px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -9,6 +7,15 @@
   text-decoration: none;
   color: var(--color-black);
   margin-right: 93px;
+  @media screen and (max-width: 767px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 
 .logo__primary-color {

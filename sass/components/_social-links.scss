@@ -21,9 +21,18 @@
 }
 
 .social-link__list {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   margin-top: 16px;
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1170px) {
+    justify-content: space-between;
+  }
 }
 
 .social-list__image {
@@ -48,6 +57,18 @@
 .our-social__list {
   display: flex;
   flex-direction: row;
+  @media screen and (min-width: 480px) {
+    justify-content: center;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1170px) {
+    padding: 0;
+    justify-content: start;
+  }
 }
 
 .our-social__item {

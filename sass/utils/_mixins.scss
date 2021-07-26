@@ -7,3 +7,11 @@
 //   font-weight: $fw;
 //   line-height: decimal-round($lh/$fs, 2);
 // }
+@mixin fonts() {
+  font-style: normal;
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}

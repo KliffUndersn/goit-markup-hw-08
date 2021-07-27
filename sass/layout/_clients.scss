@@ -10,10 +10,7 @@
     padding-bottom: 60px;
   }
 
-  @media screen and (min-width: 768px) {
-  }
-
-  @media screen and (min-width: 1170px) {
+  @media screen and (min-width: 1200) {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -34,16 +31,16 @@
 }
 
 .clients__list {
-  display: flex;
   @media screen and (min-width: 480px) {
     flex-wrap: wrap;
     justify-content: center;
+    display: flex;
   }
 
   @media screen and (min-width: 768px) {
   }
 
-  @media screen and (min-width: 1170px) {
+  @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;
     justify-content: start;
   }
